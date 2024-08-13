@@ -1,0 +1,36 @@
+.container{
+    border: 1px solid rgb(135, 135, 132);
+    width: 500px;
+    position: relative;
+    left: 26%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+.item{
+    border: 1px solid gray;
+    background-color: rgb(65, 255, 185);
+    padding: 10px;
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 100px;
+    padding: 8px;
+    /* height: 20px; */
+}
+.description{
+    border: 1px solid gray;
+    min-height: 50px;
+}
+
+*{
+    box-sizing: border-box;
+}
